@@ -1,0 +1,4 @@
+model_stage,evaluation_games,wins,win_rate_percent,average_moves
+earlier_saved_model,100,13,13.0,3.36
+final_60500_training_games,1000,303,30.3,6.12
+

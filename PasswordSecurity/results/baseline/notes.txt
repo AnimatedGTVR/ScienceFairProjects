@@ -1,0 +1,6 @@
+C# / .NET 10.0.12
+Repeats: 5; maximum guesses per trial: 15000000
+Synthetic samples, fixed-length brute force, last-candidate targets.
+Not-found trials are limited searches, not measured crack times.
+Record background CPU load when comparing runs. Initial setup ran alongside Minesweeper.
+Fast unsalted MD5 is an educational model, not modern password storage.

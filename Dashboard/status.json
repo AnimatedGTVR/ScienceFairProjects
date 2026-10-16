@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-16",
+  "refreshSeconds": 3600,
+  "projects": [
+    {
+      "id": "minesweeper",
+      "name": "Minesweeper AI",
+      "unit": "games",
+      "completed": 64100,
+      "target": 300000,
+      "remaining": 235900,
+      "percent": 21.37,
+      "state": "running",
+      "estimatedSecondsRemaining": 235800
+    },
+    {
+      "id": "password-security",
+      "name": "Password Security",
+      "unit": "guesses",
+      "completed": 15330000000,
+      "target": 56800235584,
+      "remaining": 41470235584,
+      "percent": 26.99,
+      "state": "running",
+      "estimatedSecondsRemaining": 23400,
+      "goalReached": false
+    }
+  ]
+}

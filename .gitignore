@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/.venv/
+**/__pycache__/
+*.pyc
+*.log
+*.pid
+*.tmp
+**/password-search-state.json
+**/models/saved_models/
+**/models/dqn_agent/training_data.csv
+**/models/dqn_agent/plots/
+**/evaluation/logs/
+**/frames/

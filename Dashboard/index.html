@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Science Fair Progress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Science Fair Progress</h1>
+      <p id="status" aria-live="polite">Loading progress...</p>
+    </header>
+    <section id="projects" class="projects" aria-live="polite"></section>
+    <footer>
+      <img src="science.gif" alt="Beaker from The Muppets panicking near a fire">
+      <img class="kitty-gif" src="kitty.gif" alt="Animated pixel cat walking">
+      <p>Checks for new progress automatically.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿{
+    "date":  "2026-10-10",
+    "board":  "6x6",
+    "mines":  3,
+    "device":  "CPU",
+    "threads":  2,
+    "episodes":  100,
+    "first_episode":  12,
+    "last_episode":  111,
+    "training_seconds":  56.76303469999948,
+    "seconds_per_game":  0.56763034699999482,
+    "wall_seconds":  62.4588939,
+    "overhead_seconds":  5.69585920000052,
+    "estimated_300000_hours":  47.30252891666624,
+    "estimated_1000000_days":  6.5697956828703106,
+    "note":  "Short early-training benchmark. Timing includes an intermediate checkpoint. Longer games and replay growth can change runtime."
+}
