@@ -6,23 +6,23 @@
       "id": "minesweeper",
       "name": "Minesweeper AI",
       "unit": "games",
-      "completed": 67900,
+      "completed": 71800,
       "target": 300000,
-      "remaining": 232100,
-      "percent": 22.63,
+      "remaining": 228200,
+      "percent": 23.93,
       "state": "running",
-      "estimatedSecondsRemaining": 232200
+      "estimatedSecondsRemaining": 227700
     },
     {
       "id": "password-security",
       "name": "Password Security",
       "unit": "guesses",
-      "completed": 21940000000,
+      "completed": 28870000000,
       "target": 56800235584,
-      "remaining": 34860235584,
-      "percent": 38.63,
+      "remaining": 27930235584,
+      "percent": 50.83,
       "state": "running",
-      "estimatedSecondsRemaining": 19800,
+      "estimatedSecondsRemaining": 15300,
       "goalReached": false
     }
   ]
