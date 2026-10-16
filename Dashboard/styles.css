@@ -11,8 +11,19 @@ h1 { margin: 0 0 8px; }
 h2 { margin: 0; font-size: 20px; }
 .state { color: #18794e; font-size: 14px; }
 .percent { margin: 20px 0 8px; font-size: 32px; font-weight: bold; }
-.track { height: 10px; overflow: hidden; border-radius: 5px; background: #e8ecf2; }
-.fill { height: 100%; background: #3478f6; }
+.track {
+  display: block;
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 5px;
+  background: #e8ecf2;
+  color: #3478f6;
+}
+.track::-webkit-progress-bar { background: #e8ecf2; }
+.track::-webkit-progress-value { background: #3478f6; }
+.track::-moz-progress-bar { background: #3478f6; }
 .details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
 .details p { margin: 0; }
 .details strong { display: block; margin-top: 4px; }

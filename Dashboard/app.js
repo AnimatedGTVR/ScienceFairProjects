@@ -28,9 +28,7 @@ function projectHtml(project) {
     <article class="project">
       <div class="heading"><h2>${project.name}</h2><span class="state">${readableState(project.state)}</span></div>
       <p class="percent">${project.percent.toFixed(2)}%</p>
-      <div class="track" role="progressbar" aria-label="${project.name} progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}">
-        <div class="fill" style="width:${percent}%"></div>
-      </div>
+      <progress class="track" aria-label="${project.name} progress" max="100" value="${percent}">${percent}%</progress>
       <div class="details">
         <p><span class="label">Completed</span><strong>${number.format(project.completed)}</strong></p>
         <p><span class="label">Still needed</span><strong>${number.format(project.remaining)}</strong></p>
