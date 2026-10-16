@@ -17,10 +17,10 @@
       "id": "password-security",
       "name": "Password Security",
       "unit": "guesses",
-      "completed": 15330000000,
+      "completed": 15400000000,
       "target": 56800235584,
-      "remaining": 41470235584,
-      "percent": 26.99,
+      "remaining": 41400235584,
+      "percent": 27.11,
       "state": "running",
       "estimatedSecondsRemaining": 23400,
       "goalReached": false
