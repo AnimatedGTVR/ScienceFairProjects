@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "refreshSeconds": 3600,
   "projects": [
     {
       "id": "minesweeper",
       "name": "Minesweeper AI",
       "unit": "games",
-      "completed": 102400,
+      "completed": 106300,
       "target": 300000,
-      "remaining": 197600,
-      "percent": 34.13,
+      "remaining": 193700,
+      "percent": 35.43,
       "state": "running",
-      "estimatedSecondsRemaining": 197100
+      "estimatedSecondsRemaining": 193500
     },
     {
       "id": "password-security",
