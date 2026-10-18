@@ -6,12 +6,12 @@
       "id": "minesweeper",
       "name": "Minesweeper AI",
       "unit": "games",
-      "completed": 218300,
+      "completed": 222000,
       "target": 300000,
-      "remaining": 81700,
-      "percent": 72.77,
+      "remaining": 78000,
+      "percent": 74.0,
       "state": "running",
-      "estimatedSecondsRemaining": 81900
+      "estimatedSecondsRemaining": 78300
     },
     {
       "id": "password-security",
