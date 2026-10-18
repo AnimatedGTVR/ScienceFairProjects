@@ -83,6 +83,6 @@ match or exhaustion. Keep the checkpoint with the same challenge source file.
 [Science Buddies project instructions](https://www.sciencebuddies.org/science-fair-projects/project-ideas/CompSci_p046/computer-science/password-security-how-easily-can-your-password-be-hacked)
 
 Files in `original/` are Science Buddies materials supplied by the user and retain
-their original attribution. The C# implementation was written with AI assistance.
+their original attribution. The C# implementation was written for this experiment.
 Fast unsalted MD5 matches the educational challenge, not modern password storage
 or real account protections. Hashing is not encryption; collisions are possible.

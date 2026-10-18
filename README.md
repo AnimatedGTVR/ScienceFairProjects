@@ -12,7 +12,7 @@ A temporary public tunnel can share the live dashboard without requiring sign-in
 
 Each folder contains setup instructions and source code. Both projects follow
 Science Buddies project ideas; original sources are credited in their READMEs.
-Local adaptations were made with AI assistance. Results are actual measurements.
+Local adaptations were made for these experiments. Results are actual measurements.
 
 Never programmed before? Start with the [beginner guide](BEGINNER-GUIDE.md). The
 launchers support Windows, macOS, and Linux on Intel/AMD or ARM computers when

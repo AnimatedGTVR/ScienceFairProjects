@@ -6,7 +6,7 @@
 
 ## Abstract
 
-This project tested how password length, available characters, and guessing
+I tested how password length, available characters, and guessing
 strategy affect the effort required to recover classroom sample passwords. A
 C# program generated guesses locally, hashed each guess with MD5, and compared
 the result with authorized Science Buddies sample hashes. Controlled
@@ -30,13 +30,13 @@ number of guesses and amount of time required to recover a password?
 
 ## Objective
 
-Evaluate the difficulty of different password types, write a password-guessing
-program, compare brute-force and dictionary-based strategies, and explain why
-longer and less predictable passwords are harder to guess.
+I wanted to find out which kinds of passwords were easiest and hardest for my
+program to guess. I compared brute force with dictionary-based strategies and
+looked at how the results changed when passwords became longer.
 
 ## Hypothesis
 
-If password length or the number of allowed characters increases, then the
+I predicted that if password length or the number of allowed characters increases, the
 number of possible passwords and the time required for brute force will
 increase exponentially. Dictionary attacks will recover predictable words in
 fewer guesses than brute force, but they will fail when the target is absent
@@ -112,30 +112,30 @@ science-fair approval and careful handling of private information.
 
 ## Experimental Procedure
 
-1. Download the Science Buddies starter files and preserve them in an original
+1. I downloaded the Science Buddies starter files and preserved them in an original
    folder for attribution.
-2. Write a C# program that generates candidate strings, hashes each candidate
+2. I wrote a C# program that generates candidate strings, hashes each candidate
    with MD5, compares the bytes with a target hash, counts guesses, measures
    elapsed time, and exports CSV files.
-3. Run self-tests to confirm the enumeration order, expected guess counts, and
+3. I ran self-tests to confirm the enumeration order, expected guess counts, and
    safe import of the supplied challenge data.
-4. Define four brute-force alphabets: 10 digits, 26 lowercase letters, 52
+4. I defined four brute-force alphabets: 10 digits, 26 lowercase letters, 52
    mixed-case letters, and 62 letters plus digits.
-5. For each alphabet, test lengths one through four. Place the synthetic target
+5. For each alphabet, I tested lengths one through four. I placed the synthetic target
    last in the enumeration order to measure a consistent worst case.
-6. Repeat each measured condition five times. Record guesses, mean time,
+6. I repeated each measured condition five times and recorded guesses, mean time,
    minimum time, and maximum time.
-7. Test dictionary and word-pair strategies against predictable and
+7. I tested dictionary and word-pair strategies against predictable and
    random-looking synthetic samples.
-8. Run the program against Science Buddies Challenges 0–6. Record every method,
+8. I ran the program against Science Buddies Challenges 0–6 and recorded every method,
    status, guess count, and elapsed time.
-9. For Challenge 6, test additional capitalization, word combinations,
+9. For Challenge 6, I tested additional capitalization, word combinations,
    substitutions, separators, printable ASCII patterns, and other defined
    spaces.
-10. Run a resumable search of all 62^6 six-character alphanumeric candidates.
-    Save progress every one million guesses so an interruption does not erase
+10. I ran a resumable search of all 62^6 six-character alphanumeric candidates.
+    I saved progress every one million guesses so an interruption did not erase
     the completed work.
-11. Export the measurements to CSV, calculate summary statistics, and graph
+11. I exported the measurements to CSV, calculated summary statistics, and graphed
     the results using logarithmic vertical axes.
 
 ## Results
@@ -197,7 +197,7 @@ the actual password or prove that it is impossible to guess.
 
 ## Analysis
 
-The results support exponential search-space growth. A fixed-length brute-force
+My results support exponential search-space growth. A fixed-length brute-force
 search requires A^L candidates in the worst case, so increasing length has a
 larger effect than a simple linear increase. Larger alphabets also increase the
 space, although predictable composition rules do not guarantee a strong
@@ -211,7 +211,7 @@ large search space proves only that the target is not inside that space.
 
 ## Conclusion
 
-The hypothesis was supported. Longer passwords and larger search spaces
+My hypothesis was supported. Longer passwords and larger search spaces
 required dramatically more guesses and more time in the controlled
 brute-force experiment. Dictionary and word-pair attacks were much more
 efficient when the target followed a predictable human pattern. Six of seven
@@ -249,10 +249,8 @@ multi-factor authentication, secure salted storage, and login rate limiting.
 ## Acknowledgments and Attribution
 
 The project idea, sample Python program, sample hashes, and password list came
-from Science Buddies. The guessing program used for the experiment was written
-in C# and adapted the educational goals of the supplied material. AI assistance
-was used for programming, comments, data processing, graphs, and drafting this
-report. All numerical conclusions were calculated from saved experiment files.
+from Science Buddies. I wrote the C# version for this experiment and checked the
+graphs and numerical conclusions against the saved result files.
 
 ## Bibliography
 

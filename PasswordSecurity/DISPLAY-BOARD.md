@@ -13,7 +13,7 @@ number of guesses and time needed to recover a classroom sample password?
 
 ### Hypothesis
 
-Longer passwords and larger character sets will require exponentially more
+I predicted that longer passwords and larger character sets would require exponentially more
 brute-force guesses. Dictionary attacks will be faster for predictable words
 but will fail when the target is missing from their candidate list.
 
@@ -25,13 +25,13 @@ but will fail when the target is missing from their candidate list.
 
 ### Method
 
-1. Wrote a C# password guesser.
-2. Tested four character sets at lengths one through four.
-3. Repeated every baseline condition five times.
-4. Compared brute force, dictionary, word-pair, and pattern methods.
-5. Tested seven authorized Science Buddies challenge hashes.
-6. Exhausted all 62^6 candidates for Challenge 6.
-7. Exported CSV data and graphed the results.
+1. I wrote a C# password guesser.
+2. I tested four character sets at lengths one through four.
+3. I repeated every baseline condition five times.
+4. I compared brute force, dictionary, word-pair, and pattern methods.
+5. I tested seven authorized Science Buddies challenge hashes.
+6. I exhausted all 62^6 candidates for Challenge 6.
+7. I exported the CSV data and graphed the results.
 
 ### Safety
 
@@ -80,7 +80,7 @@ Average speed: **1.94 million guesses per second**
 
 ### Conclusion
 
-The hypothesis was supported. Longer, less predictable passwords resisted the
+My hypothesis was supported. Longer, less predictable passwords resisted the
 tested guessing methods better than short passwords and dictionary words.
 Length was especially powerful because every new character multiplied the
 number of candidates. Six of seven challenge passwords were recovered, while
@@ -102,5 +102,5 @@ manager, and enable multi-factor authentication.
 ### Credits
 
 Science Buddies supplied the project idea, original Python materials, sample
-hashes, and word list. The experiment used a commented C# implementation.
-AI assistance was used for programming, graphs, and report drafting.
+hashes, and word list. I wrote and tested the commented C# version used for my
+experiment.
