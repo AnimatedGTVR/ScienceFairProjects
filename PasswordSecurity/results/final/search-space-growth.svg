@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="105" y="44" font-family="Arial, sans-serif" font-size="28" text-anchor="start" font-weight="bold" fill="#172033">Password Search Space Growth</text>
+<text x="105" y="74" font-family="Arial, sans-serif" font-size="15" text-anchor="start" font-weight="normal" fill="#596579">Every extra character multiplies possible passwords (logarithmic scale)</text>
+<line x1="105" y1="555.0" x2="1055" y2="555.0" stroke="#dfe4ec"/>
+<text x="91" y="560.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^1</text>
+<line x1="105" y1="522.8571428571429" x2="1055" y2="522.8571428571429" stroke="#dfe4ec"/>
+<text x="91" y="527.8571428571429" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^2</text>
+<line x1="105" y1="490.7142857142857" x2="1055" y2="490.7142857142857" stroke="#dfe4ec"/>
+<text x="91" y="495.7142857142857" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^3</text>
+<line x1="105" y1="458.57142857142856" x2="1055" y2="458.57142857142856" stroke="#dfe4ec"/>
+<text x="91" y="463.57142857142856" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^4</text>
+<line x1="105" y1="426.42857142857144" x2="1055" y2="426.42857142857144" stroke="#dfe4ec"/>
+<text x="91" y="431.42857142857144" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^5</text>
+<line x1="105" y1="394.2857142857143" x2="1055" y2="394.2857142857143" stroke="#dfe4ec"/>
+<text x="91" y="399.2857142857143" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^6</text>
+<line x1="105" y1="362.1428571428571" x2="1055" y2="362.1428571428571" stroke="#dfe4ec"/>
+<text x="91" y="367.1428571428571" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^7</text>
+<line x1="105" y1="330.0" x2="1055" y2="330.0" stroke="#dfe4ec"/>
+<text x="91" y="335.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^8</text>
+<line x1="105" y1="297.8571428571429" x2="1055" y2="297.8571428571429" stroke="#dfe4ec"/>
+<text x="91" y="302.8571428571429" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^9</text>
+<line x1="105" y1="265.71428571428567" x2="1055" y2="265.71428571428567" stroke="#dfe4ec"/>
+<text x="91" y="270.71428571428567" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^10</text>
+<line x1="105" y1="233.57142857142856" x2="1055" y2="233.57142857142856" stroke="#dfe4ec"/>
+<text x="91" y="238.57142857142856" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^11</text>
+<line x1="105" y1="201.42857142857144" x2="1055" y2="201.42857142857144" stroke="#dfe4ec"/>
+<text x="91" y="206.42857142857144" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^12</text>
+<line x1="105" y1="169.2857142857143" x2="1055" y2="169.2857142857143" stroke="#dfe4ec"/>
+<text x="91" y="174.2857142857143" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^13</text>
+<line x1="105" y1="137.14285714285714" x2="1055" y2="137.14285714285714" stroke="#dfe4ec"/>
+<text x="91" y="142.14285714285714" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^14</text>
+<line x1="105" y1="105.0" x2="1055" y2="105.0" stroke="#dfe4ec"/>
+<text x="91" y="110.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^15</text>
+<text x="-330.0" y="28" transform="rotate(-90)" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#172033">Possible passwords (log scale)</text>
+<line x1="105" y1="105" x2="105" y2="555" stroke="#172033"/>
+<line x1="105" y1="555" x2="1055" y2="555" stroke="#172033"/>
+<text x="105.0" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">1</text>
+<text x="240.7142857142857" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">2</text>
+<text x="376.4285714285714" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">3</text>
+<text x="512.1428571428571" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">4</text>
+<text x="647.8571428571428" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">5</text>
+<text x="783.5714285714286" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">6</text>
+<text x="919.2857142857142" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">7</text>
+<text x="1055.0" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">8</text>
+<text x="580.0" y="622" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#172033">Password length (characters)</text>
+<polyline points="105.0,555.0 240.7142857142857,522.8571428571429 376.4285714285714,490.7142857142857 512.1428571428571,458.57142857142856 647.8571428571428,426.42857142857144 783.5714285714286,394.2857142857143 919.2857142857142,362.1428571428571 1055.0,330.0" fill="none" stroke="#2563eb" stroke-width="4"/>
+<circle cx="105.0" cy="555.0" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="240.7142857142857" cy="522.8571428571429" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="376.4285714285714" cy="490.7142857142857" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="512.1428571428571" cy="458.57142857142856" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="647.8571428571428" cy="426.42857142857144" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="783.5714285714286" cy="394.2857142857143" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="919.2857142857142" cy="362.1428571428571" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="330.0" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,541.6615709580808 240.7142857142857,496.1802847733046 376.4285714285714,450.69899858852824 512.1428571428571,405.21771240375193 647.8571428571428,359.7364262189757 783.5714285714286,314.25514003419937 919.2857142857142,268.77385384942306 1055.0,223.2925676646468" fill="none" stroke="#16a34a" stroke-width="4"/>
+<circle cx="105.0" cy="541.6615709580808" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="240.7142857142857" cy="496.1802847733046" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="376.4285714285714" cy="450.69899858852824" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="512.1428571428571" cy="405.21771240375193" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="647.8571428571428" cy="359.7364262189757" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="783.5714285714286" cy="314.25514003419937" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="919.2857142857142" cy="268.77385384942306" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="223.2925676646468" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,531.9856068117385 240.7142857142857,476.82835648062 376.4285714285714,421.6711061495015 512.1428571428571,366.513855818383 647.8571428571428,311.35660548726446 783.5714285714286,256.1993551561459 919.2857142857142,201.0421048250273 1055.0,145.8848544939088" fill="none" stroke="#dc2626" stroke-width="4"/>
+<circle cx="105.0" cy="531.9856068117385" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="240.7142857142857" cy="476.82835648062" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="376.4285714285714" cy="421.6711061495015" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="512.1428571428571" cy="366.513855818383" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="647.8571428571428" cy="311.35660548726446" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="783.5714285714286" cy="256.1993551561459" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="919.2857142857142" cy="201.0421048250273" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="145.8848544939088" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,529.5302671232704 240.7142857142857,471.9176771036837 376.4285714285714,414.30508708409695 512.1428571428571,356.69249706451023 647.8571428571428,299.0799070449235 783.5714285714286,241.46731702533677 919.2857142857142,183.85472700575005 1055.0,126.24213698616329" fill="none" stroke="#9333ea" stroke-width="4"/>
+<circle cx="105.0" cy="529.5302671232704" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="240.7142857142857" cy="471.9176771036837" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="376.4285714285714" cy="414.30508708409695" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="512.1428571428571" cy="356.69249706451023" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="647.8571428571428" cy="299.0799070449235" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="783.5714285714286" cy="241.46731702533677" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="919.2857142857142" cy="183.85472700575005" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="126.24213698616329" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<rect x="117" y="117" width="18" height="18" rx="3" fill="#2563eb"/>
+<text x="144" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Digits (10)</text>
+<rect x="332" y="117" width="18" height="18" rx="3" fill="#16a34a"/>
+<text x="359" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Lowercase (26)</text>
+<rect x="547" y="117" width="18" height="18" rx="3" fill="#dc2626"/>
+<text x="574" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Letters (52)</text>
+<rect x="762" y="117" width="18" height="18" rx="3" fill="#9333ea"/>
+<text x="789" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Letters + digits (62)</text>
+</svg>

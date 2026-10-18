@@ -1,0 +1,7 @@
+metric,value,unit,notes
+Six-character combinations tested,56800235584,guesses,Complete 62-character alphanumeric search space
+Search result,Not found,status,The tested challenge hash did not occur in this search space
+Approximate active wall time,8.13,hours,Sum of the two search-process log intervals
+Average throughput,1941034,guesses per second,Total guesses divided by approximate active wall time
+Measured benchmark repetitions,5,trials per condition,From baseline C-sharp timing experiment
+Science Buddies challenges solved,6,out of 7,Challenges 0 through 5 were recovered

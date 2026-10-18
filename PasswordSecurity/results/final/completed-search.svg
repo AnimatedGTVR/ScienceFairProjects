@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="105" y="44" font-family="Arial, sans-serif" font-size="28" text-anchor="start" font-weight="bold" fill="#172033">Completed Six-Character Search</text>
+<text x="105" y="74" font-family="Arial, sans-serif" font-size="15" text-anchor="start" font-weight="normal" fill="#596579">Full alphanumeric search: lowercase + uppercase + digits</text>
+<rect x="105" y="125" width="890" height="375" rx="18" fill="#f5f7fb" stroke="#dce1ea"/>
+<text x="550" y="215" font-family="Arial, sans-serif" font-size="54" text-anchor="middle" font-weight="bold" fill="#2563eb">56,800,235,584</text>
+<text x="550" y="252" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="normal" fill="#596579">password candidates tested</text>
+<rect x="180" y="300" width="740" height="28" rx="14" fill="#16a34a"/>
+<text x="550" y="321" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#fff">100% of the planned search space</text>
+<text x="330" y="395" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="#172033">≈ 8.13 hours</text>
+<text x="330" y="426" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="normal" fill="#596579">approximate active wall time</text>
+<text x="770" y="395" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="#dc2626">No match</text>
+<text x="770" y="426" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="normal" fill="#596579">Challenge 6 result</text>
+<text x="105" y="550" font-family="Arial, sans-serif" font-size="17" text-anchor="start" font-weight="bold" fill="#172033">Conclusion: the target was not six characters made only from A–Z, a–z, and 0–9.</text>
+<text x="105" y="580" font-family="Arial, sans-serif" font-size="15" text-anchor="start" font-weight="normal" fill="#596579">This rules out only the tested search space; it does not prove the password is unguessable.</text>
+</svg>

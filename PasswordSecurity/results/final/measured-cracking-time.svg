@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="105" y="44" font-family="Arial, sans-serif" font-size="28" text-anchor="start" font-weight="bold" fill="#172033">Measured Brute-Force Time</text>
+<text x="105" y="74" font-family="Arial, sans-serif" font-size="15" text-anchor="start" font-weight="normal" fill="#596579">Mean of five C# trials per condition; worst-position sample (logarithmic scale)</text>
+<line x1="105" y1="555.0" x2="1055" y2="555.0" stroke="#dfe4ec"/>
+<text x="91" y="560.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-6</text>
+<line x1="105" y1="498.75" x2="1055" y2="498.75" stroke="#dfe4ec"/>
+<text x="91" y="503.75" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-5</text>
+<line x1="105" y1="442.5" x2="1055" y2="442.5" stroke="#dfe4ec"/>
+<text x="91" y="447.5" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-4</text>
+<line x1="105" y1="386.25" x2="1055" y2="386.25" stroke="#dfe4ec"/>
+<text x="91" y="391.25" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-3</text>
+<line x1="105" y1="330.0" x2="1055" y2="330.0" stroke="#dfe4ec"/>
+<text x="91" y="335.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-2</text>
+<line x1="105" y1="273.75" x2="1055" y2="273.75" stroke="#dfe4ec"/>
+<text x="91" y="278.75" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^-1</text>
+<line x1="105" y1="217.5" x2="1055" y2="217.5" stroke="#dfe4ec"/>
+<text x="91" y="222.5" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^0</text>
+<line x1="105" y1="161.25" x2="1055" y2="161.25" stroke="#dfe4ec"/>
+<text x="91" y="166.25" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^1</text>
+<line x1="105" y1="105.0" x2="1055" y2="105.0" stroke="#dfe4ec"/>
+<text x="91" y="110.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^2</text>
+<text x="-330.0" y="28" transform="rotate(-90)" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#172033">Mean seconds (log scale)</text>
+<line x1="105" y1="105" x2="105" y2="555" stroke="#172033"/>
+<line x1="105" y1="555" x2="1055" y2="555" stroke="#172033"/>
+<text x="105.0" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">1</text>
+<text x="421.66666666666663" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">2</text>
+<text x="738.3333333333333" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">3</text>
+<text x="1055.0" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">4</text>
+<text x="580.0" y="622" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#172033">Password length (characters)</text>
+<polyline points="105.0,499.84924355946936 421.66666666666663,457.3187335971017 738.3333333333333,402.36143225032106 1055.0,341.10652270828245" fill="none" stroke="#2563eb" stroke-width="4"/>
+<circle cx="105.0" cy="499.84924355946936" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="421.66666666666663" cy="457.3187335971017" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="738.3333333333333" cy="402.36143225032106" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="341.10652270828245" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,488.7798092106212 421.66666666666663,409.7180418076552 738.3333333333333,334.1811839840574 1055.0,262.5481565510345" fill="none" stroke="#16a34a" stroke-width="4"/>
+<circle cx="105.0" cy="488.7798092106212" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="421.66666666666663" cy="409.7180418076552" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="738.3333333333333" cy="334.1811839840574" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="262.5481565510345" r="6" fill="#16a34a" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,482.43555311085834 421.66666666666663,388.93321975421213 738.3333333333333,290.85469947689165 1055.0,185.97843762485408" fill="none" stroke="#dc2626" stroke-width="4"/>
+<circle cx="105.0" cy="482.43555311085834" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="421.66666666666663" cy="388.93321975421213" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="738.3333333333333" cy="290.85469947689165" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="185.97843762485408" r="6" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<polyline points="105.0,466.7754516890502 421.66666666666663,369.44467087910107 738.3333333333333,268.4543581719885 1055.0,166.6201544637558" fill="none" stroke="#9333ea" stroke-width="4"/>
+<circle cx="105.0" cy="466.7754516890502" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="421.66666666666663" cy="369.44467087910107" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="738.3333333333333" cy="268.4543581719885" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<circle cx="1055.0" cy="166.6201544637558" r="6" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+<rect x="117" y="117" width="18" height="18" rx="3" fill="#2563eb"/>
+<text x="144" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Digits (10)</text>
+<rect x="332" y="117" width="18" height="18" rx="3" fill="#16a34a"/>
+<text x="359" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Lowercase (26)</text>
+<rect x="547" y="117" width="18" height="18" rx="3" fill="#dc2626"/>
+<text x="574" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Letters (52)</text>
+<rect x="762" y="117" width="18" height="18" rx="3" fill="#9333ea"/>
+<text x="789" y="132" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#172033">Letters + digits (62)</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="105" y="44" font-family="Arial, sans-serif" font-size="28" text-anchor="start" font-weight="bold" fill="#172033">Password Challenge Attempts</text>
+<text x="105" y="74" font-family="Arial, sans-serif" font-size="15" text-anchor="start" font-weight="normal" fill="#596579">Total guesses used for each Science Buddies challenge (logarithmic scale)</text>
+<line x1="105" y1="555.0" x2="1055" y2="555.0" stroke="#dfe4ec"/>
+<text x="91" y="560.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^1</text>
+<line x1="105" y1="510.0" x2="1055" y2="510.0" stroke="#dfe4ec"/>
+<text x="91" y="515.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^2</text>
+<line x1="105" y1="465.0" x2="1055" y2="465.0" stroke="#dfe4ec"/>
+<text x="91" y="470.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^3</text>
+<line x1="105" y1="420.0" x2="1055" y2="420.0" stroke="#dfe4ec"/>
+<text x="91" y="425.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^4</text>
+<line x1="105" y1="375.0" x2="1055" y2="375.0" stroke="#dfe4ec"/>
+<text x="91" y="380.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^5</text>
+<line x1="105" y1="330.0" x2="1055" y2="330.0" stroke="#dfe4ec"/>
+<text x="91" y="335.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^6</text>
+<line x1="105" y1="285.0" x2="1055" y2="285.0" stroke="#dfe4ec"/>
+<text x="91" y="290.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^7</text>
+<line x1="105" y1="240.00000000000003" x2="1055" y2="240.00000000000003" stroke="#dfe4ec"/>
+<text x="91" y="245.00000000000003" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^8</text>
+<line x1="105" y1="195.0" x2="1055" y2="195.0" stroke="#dfe4ec"/>
+<text x="91" y="200.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^9</text>
+<line x1="105" y1="150.0" x2="1055" y2="150.0" stroke="#dfe4ec"/>
+<text x="91" y="155.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^10</text>
+<line x1="105" y1="105.0" x2="1055" y2="105.0" stroke="#dfe4ec"/>
+<text x="91" y="110.0" font-family="Arial, sans-serif" font-size="13" text-anchor="end" font-weight="normal" fill="#596579">10^11</text>
+<text x="-330.0" y="28" transform="rotate(-90)" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#172033">Total guesses (log scale)</text>
+<line x1="105" y1="105" x2="105" y2="555" stroke="#172033"/>
+<line x1="105" y1="555" x2="1055" y2="555" stroke="#172033"/>
+<rect x="133.5" y="276.48802171719063" width="78.71428571428571" height="278.51197828280937" rx="5" fill="#2563eb"/>
+<text x="172.85714285714286" y="266.48802171719063" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">15.4581M</text>
+<text x="172.85714285714286" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 0</text>
+<rect x="269.2142857142857" y="463.06639169730687" width="78.71428571428571" height="91.93360830269313" rx="5" fill="#2563eb"/>
+<text x="308.57142857142856" y="453.06639169730687" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">1.104K</text>
+<text x="308.57142857142856" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 1</text>
+<rect x="404.92857142857144" y="481.08909658910454" width="78.71428571428571" height="73.91090341089546" rx="5" fill="#2563eb"/>
+<text x="444.2857142857143" y="471.08909658910454" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">439</text>
+<text x="444.2857142857143" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 2</text>
+<rect x="540.6428571428571" y="522.4075858679645" width="78.71428571428571" height="32.592414132035515" rx="5" fill="#2563eb"/>
+<text x="580.0" y="512.4075858679645" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">53</text>
+<text x="580.0" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 3</text>
+<rect x="676.3571428571429" y="357.86445381041665" width="78.71428571428571" height="197.13554618958335" rx="5" fill="#2563eb"/>
+<text x="715.7142857142858" y="347.86445381041665" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">240.32K</text>
+<text x="715.7142857142858" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 4</text>
+<rect x="812.0714285714287" y="306.0542419110477" width="78.71428571428571" height="248.9457580889523" rx="5" fill="#2563eb"/>
+<text x="851.4285714285716" y="296.0542419110477" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">3.40509M</text>
+<text x="851.4285714285716" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 5</text>
+<rect x="947.7857142857143" y="116.05424383547148" width="78.71428571428571" height="438.9457561645285" rx="5" fill="#2563eb"/>
+<text x="987.1428571428572" y="106.05424383547148" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#172033">56.8002B</text>
+<text x="987.1428571428572" y="582" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="normal" fill="#172033">Challenge 6</text>
+<text x="105" y="625" font-family="Arial, sans-serif" font-size="14" text-anchor="start" font-weight="normal" fill="#596579">Challenge 6 exhausted 56.8 billion six-character alphanumeric candidates without a match.</text>
+</svg>

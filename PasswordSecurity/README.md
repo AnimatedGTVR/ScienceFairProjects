@@ -62,7 +62,8 @@ stop at 15 million guesses or 30 seconds; extended modes allow 150 million or
 120 seconds per method. Enumeration order differs from the Python starter.
 
 - [Challenge results](CHALLENGE-RESULTS.md): passwords 0-5 solved.
-- [Challenge 6 progress](CHALLENGE-6-PROGRESS.md): additional unsuccessful searches.
+- [Challenge 6 progress](CHALLENGE-6-PROGRESS.md): completed exhaustive search.
+- [Final graphs and CSV tables](results/final/README.md): poster and spreadsheet files.
 
 ## Resume a longer search
 

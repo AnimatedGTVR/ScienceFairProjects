@@ -1,0 +1,8 @@
+challenge,result,successful_method,successful_method_guesses,total_guesses,seconds
+0,found,alphanumeric_1_to_8,446083,15458063,8.077343
+1,found,numeric_1_to_4,234,1104,0.002137
+2,found,dictionary,439,439,0.000790
+3,found,dictionary,53,53,0.000580
+4,found,word_pairs,228340,240320,0.137932
+5,found,word_pairs,3393105,3405085,1.397592
+6,not_found,complete_alphanumeric_length_6,,56800235584,29263
