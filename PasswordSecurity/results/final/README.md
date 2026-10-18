@@ -4,6 +4,8 @@ These files turn the completed experiment into poster-ready vector graphs and
 spreadsheet-ready CSV tables.
 
 - Password-Security-Final.xlsx is a polished, one-file workbook for Google Sheets.
+- Password-Security-Final-Report.docx is the complete written report.
+- Password-Security-Display-Board.docx contains shortened presentation-board text.
 - challenge-attempts.svg compares Science Buddies Challenges 0–6.
 - measured-cracking-time.svg shows measured C# time by password length.
 - search-space-growth.svg shows theoretical growth for four alphabets.
