@@ -16,6 +16,19 @@
       <p id="status" aria-live="polite">Loading progress...</p>
     </header>
     <section id="projects" class="projects" aria-live="polite"></section>
+    <section class="guesser" aria-labelledby="guesser-title">
+      <h2 id="guesser-title">Try the password experiment</h2>
+      <p class="guesser-intro">Enter a made-up password. This classroom demo tests it on this device and never sends or saves it.</p>
+      <form id="guesser-form">
+        <label for="demo-password">Made-up password</label>
+        <div class="guesser-controls">
+          <input id="demo-password" name="password" type="password" maxlength="24" autocomplete="new-password" required>
+          <button type="submit">Test it</button>
+        </div>
+      </form>
+      <div id="guesser-result" class="guesser-result" aria-live="polite">Waiting for a test.</div>
+      <p class="fine-print">For safety and speed, the demo stops after 500,000 guesses. Do not enter a password you actually use.</p>
+    </section>
     <footer>
       <img src="science.gif" alt="Beaker from The Muppets panicking near a fire">
       <img class="kitty-gif" src="kitty.gif" alt="Animated pixel cat walking">
@@ -24,5 +37,6 @@
   </main>
 
   <script src="app.js"></script>
+  <script src="guesser.js"></script>
 </body>
 </html>

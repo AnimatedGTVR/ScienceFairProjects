@@ -21,6 +21,14 @@ chmod +x run.sh
 
 Then open <http://127.0.0.1:8080>. The page refreshes its data every ten seconds.
 
+## Password experiment demo
+
+The page includes a small browser version of the classroom password experiment.
+It tries numbers, the supplied common-password list, pairs from that list, and
+letter-and-number strings up to three characters long. It stops after 500,000
+guesses so the page remains responsive. Entered text stays in the browser and is
+cleared after each test; visitors should still use only made-up passwords.
+
 ## Public website
 
 The project computer runs a Cloudflare Quick Tunnel that gives this dashboard a
@@ -35,7 +43,8 @@ not return a recovered password.
 
 ## Put the HTML somewhere else
 
-Copy `index.html`, `styles.css`, and `app.js` to any static web host. Point
+Copy `index.html`, `styles.css`, `app.js`, `guesser.js`, and `passwords.txt` to
+any static web host. Point
 the page to a reachable API by adding its address to the URL:
 
 ```text

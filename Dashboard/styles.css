@@ -33,5 +33,22 @@ footer .kitty-gif { width: 96px; height: auto; image-rendering: pixelated; }
 footer p { margin: 3px; }
 footer a { color: inherit; }
 .error { color: #b42318; }
+.guesser { margin-top: 14px; padding: 20px; border: 1px solid #dce1ea; border-radius: 10px; background: white; }
+.guesser-intro { margin: 8px 0 18px; color: #687386; line-height: 1.45; }
+.guesser label { display: block; margin-bottom: 7px; font-weight: bold; }
+.guesser-controls { display: flex; gap: 8px; }
+.guesser input { min-width: 0; flex: 1; padding: 11px 12px; border: 1px solid #b9c2d0; border-radius: 7px; font: inherit; }
+.guesser input:focus { outline: 3px solid #cbdcff; border-color: #3478f6; }
+.guesser button { padding: 11px 18px; border: 0; border-radius: 7px; background: #3478f6; color: white; font: inherit; font-weight: bold; cursor: pointer; }
+.guesser button:hover { background: #2866d7; }
+.guesser button:disabled { cursor: wait; opacity: .65; }
+.guesser-result { margin-top: 16px; padding: 14px; border-radius: 7px; background: #f5f7fb; line-height: 1.5; }
+.guesser-result strong { display: block; margin-bottom: 2px; }
+.guesser-result.found { background: #eaf8f1; color: #12633f; }
+.guesser-result.not-found { background: #fff5e5; color: #7a4b00; }
+.fine-print { margin: 12px 0 0; color: #687386; font-size: 12px; }
 
-@media (max-width: 560px) { .details { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .details { grid-template-columns: 1fr; }
+  .guesser-controls { align-items: stretch; flex-direction: column; }
+}
