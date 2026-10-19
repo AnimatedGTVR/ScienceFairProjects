@@ -1,0 +1,9 @@
+metric,value,unit
+training games,249830,games
+trained wins,901,of 2000
+trained win rate,45.050000000000004,percent
+random wins,260,of 2000
+random win rate,13.0,percent
+win-rate multiplier,3.4653846153846155,times random
+first 10000 training win rate,1.48,percent
+last training block win rate,15.534079348931842,percent

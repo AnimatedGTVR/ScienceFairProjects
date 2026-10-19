@@ -53,8 +53,14 @@ Training adds episodes to the saved model. Evaluation loads that model, disables
 random exploration, and plays 1,000 games for a repeatable measurement. Train
 before evaluating.
 
-The [60,500-game interim evaluation](INTERIM-RESULTS.md) measured 303 wins in
-1,000 fresh games: a 30.3% win rate. Training then continued toward 300,000.
+Training was finalized on October 19, 2026 after **249,830 games**. In the final
+evaluation, the trained model won **901 of 2,000 fresh games (45.05%)**, while a
+random baseline won **260 of 2,000 (13.0%)**. The trained model therefore won
+about **3.47 times as often**. See the complete spreadsheet, report, graphs, raw
+data, and downloadable archive in [`results/final`](results/final/).
+
+The earlier [60,500-game interim evaluation](INTERIM-RESULTS.md) measured 303
+wins in 1,000 fresh games, or 30.3%.
 
 Settings: `models/dqn_agent/config.yaml`. Weights are saved in
 `models/saved_models/`. Training data is in `models/dqn_agent/training_data.csv`;
@@ -83,4 +89,4 @@ of the model's persisted training state.
 
 Local changes correct the configuration name, load weights for evaluation, use
 neural-network evaluation mode, match reward scaling, update the mine-placement
-test, and provide cross-platform launchers. Adaptations were made with AI assistance.
+test, and provide cross-platform launchers.

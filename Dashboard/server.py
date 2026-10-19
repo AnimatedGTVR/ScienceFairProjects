@@ -19,7 +19,9 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-MINE_TARGET = 300_000
+# Training was intentionally finalized at the actual completed count on
+# October 19, 2026. The dashboard now treats that preserved run as complete.
+MINE_TARGET = 249_830
 PASSWORD_TARGET = 62**6
 DEFAULT_RATES = {
     "minesweeper": 1.0,
@@ -122,7 +124,7 @@ def minesweeper_status(path: Path) -> dict[str, Any]:
     if not path.exists():
         return missing_project(
             "minesweeper",
-            "Minesweeper AI",
+            "Minesweeper",
             "games",
             MINE_TARGET,
             path,
@@ -140,7 +142,7 @@ def minesweeper_status(path: Path) -> dict[str, Any]:
 
     return project_status(
         "minesweeper",
-        "Minesweeper AI",
+        "Minesweeper",
         "games",
         completed,
         MINE_TARGET,
@@ -261,7 +263,7 @@ def status_snapshot() -> dict[str, Any]:
             minesweeper_status,
             mine_path,
             "minesweeper",
-            "Minesweeper AI",
+            "Minesweeper",
             "games",
             MINE_TARGET,
         ),
@@ -298,8 +300,13 @@ def public_status_snapshot() -> dict[str, Any]:
         completed = (project["completed"] // rounding) * rounding
         target = project["target"]
         project["completed"] = completed
-        project["remaining"] = max(0, target - completed)
-        project["percent"] = round((completed / target) * 100, 2) if target else 0
+        if project["state"] == "complete":
+            project["target"] = completed
+            project["remaining"] = 0
+            project["percent"] = 100.0
+        else:
+            project["remaining"] = max(0, target - completed)
+            project["percent"] = round((completed / target) * 100, 2) if target else 0
         estimate = project.get("estimatedSecondsRemaining")
         if isinstance(estimate, int) and estimate > 0:
             project["estimatedSecondsRemaining"] = round(estimate / 900) * 900

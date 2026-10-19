@@ -4,22 +4,22 @@
   "projects": [
     {
       "id": "minesweeper",
-      "name": "Minesweeper AI",
+      "name": "Minesweeper",
       "unit": "games",
-      "completed": 249600,
-      "target": 300000,
-      "remaining": 50400,
-      "percent": 83.2,
-      "state": "stale",
-      "estimatedSecondsRemaining": null
+      "completed": 249800,
+      "target": 249800,
+      "remaining": 0,
+      "percent": 100.0,
+      "state": "complete",
+      "estimatedSecondsRemaining": 0
     },
     {
       "id": "password-security",
       "name": "Password Security",
       "unit": "guesses",
       "completed": 56800000000,
-      "target": 56800235584,
-      "remaining": 235584,
+      "target": 56800000000,
+      "remaining": 0,
       "percent": 100.0,
       "state": "complete",
       "estimatedSecondsRemaining": 0,
