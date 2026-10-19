@@ -64,6 +64,7 @@ stop at 15 million guesses or 30 seconds; extended modes allow 150 million or
 - [Challenge results](CHALLENGE-RESULTS.md): passwords 0-5 solved.
 - [Challenge 6 progress](CHALLENGE-6-PROGRESS.md): completed exhaustive search.
 - [Final graphs and CSV tables](results/final/README.md): poster and spreadsheet files.
+- [Complete final package](results/final/Password-Security-Science-Fair-Package.zip): workbook, reports, raw data, and graphs.
 - [Complete science-fair report](FINAL-REPORT.md): editable written project.
 - [Display-board text](DISPLAY-BOARD.md): shortened three-panel presentation.
 

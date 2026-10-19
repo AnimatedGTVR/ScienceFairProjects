@@ -26,6 +26,9 @@ WHITE = "FFFFFF"
 MUTED = "5B6577"
 GRID = "DCE3EE"
 SERIES_COLORS = [BLUE, GREEN, RED, PURPLE]
+SCIENCE_BUDDIES = "https://www.sciencebuddies.org/science-fair-projects/project-ideas/CompSci_p046/computer-science/password-security-how-easily-can-your-password-be-hacked"
+NIST = "https://pages.nist.gov/800-63-4/sp800-63b.html"
+OWASP = "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
 
 
 def read_rows(path):
@@ -122,14 +125,15 @@ def add_overview(wb):
     chart.legend = None
     ws.add_chart(chart, "A19")
 
-    ws.merge_cells("A37:H38")
+    ws.merge_cells("A37:H37")
     ws["A37"] = (
-        "Conclusion: Challenge 6 was not a six-character password made only from "
-        "A–Z, a–z, and 0–9. This rules out only that tested search space."
+        "We tested every six-character password made from A-Z, a-z, and 0-9, "
+        "but none matched Challenge 6. It must be outside that tested search space."
     )
     ws["A37"].fill = PatternFill("solid", fgColor="E8F0FE")
     ws["A37"].font = Font(size=12, bold=True, color=NAVY)
     ws["A37"].alignment = Alignment(wrap_text=True, vertical="center")
+    ws.row_dimensions[37].height = 42
     for column, width in {"A": 13, "B": 16, "C": 28, "D": 19, "E": 20, "F": 14, "G": 18, "H": 18}.items():
         ws.column_dimensions[column].width = width
 
@@ -234,12 +238,76 @@ def add_notes(wb):
     ws.column_dimensions["B"].width = 95
 
 
+def add_science_buddies(wb):
+    ws = wb.create_sheet("Science Buddies")
+    ws.sheet_properties.tabColor = GREEN
+    title(ws, "SCIENCE BUDDIES CHECKLIST",
+          "How the completed project answers the assigned procedure", 3)
+    ws["A4"], ws["B4"], ws["C4"] = "Requested work", "What this project did", "Evidence"
+    items = [
+        ("Research password strength", "Compared length, character-set size, predictability, and guessing strategy.", "Research Notes and final report"),
+        ("Calculate combinations", "Calculated A^L for four alphabets and lengths 1–8.", "Search Space tab"),
+        ("Graph exponential growth", "Created logarithmic graphs because the counts span many orders of magnitude.", "Search Space tab and graph files"),
+        ("Write a guessing program", "Implemented the experiment in C# and retained the supplied Python files with attribution.", "Program.cs, Challenges.cs, and original/"),
+        ("Compare algorithms", "Measured numeric brute force, alphanumeric brute force, dictionary guesses, and word-pair guesses.", "Overview and challenge-summary.csv"),
+        ("Test supplied challenges", "Recovered Challenges 0–5 and fully tested one defined search space for Challenge 6.", "Overview and CHALLENGE-RESULTS.md"),
+        ("Record time and guesses", "Recorded attempt counts, elapsed time, repeated trials, and throughput.", "Measured Time and Overview tabs"),
+        ("Use authorized samples", "Used Science Buddies samples and synthetic benchmarks; no real accounts or private passwords.", "Notes tab"),
+        ("Credit starter material", "Science Buddies files remain in original/ with their attribution.", SCIENCE_BUDDIES),
+    ]
+    for item in items:
+        ws.append(item)
+    style_table(ws, 4, 4 + len(items), 3, "ScienceBuddiesChecklist")
+    for row in ws.iter_rows(min_row=5):
+        for cell in row:
+            cell.alignment = Alignment(wrap_text=True, vertical="top")
+        ws.row_dimensions[row[0].row].height = 48
+    ws.column_dimensions["A"].width = 30
+    ws.column_dimensions["B"].width = 70
+    ws.column_dimensions["C"].width = 48
+
+
+def add_research(wb):
+    ws = wb.create_sheet("Research Notes")
+    ws.sheet_properties.tabColor = PURPLE
+    title(ws, "PASSWORD SECURITY RESEARCH",
+          "Background needed to interpret the classroom experiment", 4)
+    ws["A4"], ws["B4"], ws["C4"], ws["D4"] = "Topic", "Research note", "Connection to this experiment", "Source"
+    items = [
+        ("Search space", "For an alphabet of A characters and fixed length L, brute force has A^L candidates.", "Adding one character multiplies worst-case work by A.", SCIENCE_BUDDIES),
+        ("Dictionary attacks", "People often choose predictable words and patterns, so likely guesses can beat exhaustive brute force.", "The dictionary recovered two challenges in fewer than 500 guesses.", SCIENCE_BUDDIES),
+        ("Word combinations", "Combining familiar words can remain predictable when an attacker tests word pairs.", "The experiment recovered secretpassword with the word-pair method.", SCIENCE_BUDDIES),
+        ("Password length", "Current NIST guidance treats length as a primary strength factor and supports long passphrases.", "The search-space graph shows why every extra character matters.", NIST),
+        ("Blocklists", "NIST requires services to reject commonly used, expected, or compromised passwords.", "Values such as 123 and dictionary words should be rejected even if they meet format rules.", NIST),
+        ("Composition rules", "NIST says services should not force mixtures of character types because people respond predictably.", "A capital letter or symbol does not automatically make a password unpredictable.", NIST),
+        ("Rate limiting", "Online services should limit failed authentication attempts.", "This experiment modeled offline guessing; real online attempts should be restricted.", NIST),
+        ("Hashing", "Hashing supports one-way verification, while encryption is reversible with a key.", "The program compared MD5 outputs; it did not decrypt passwords.", OWASP),
+        ("Salts", "A unique random salt prevents one precomputed table from working against many password hashes.", "The Science Buddies MD5 samples were unsalted and simpler than modern storage.", OWASP),
+        ("Slow password hashing", "OWASP recommends purpose-built algorithms such as Argon2id instead of fast general hashes.", "The measured speed shows why fast MD5 is unsuitable for password storage.", OWASP),
+        ("Experiment limit", "A failed search proves only that its defined candidate set did not contain a match.", "Challenge 6 may use another length, symbols, spaces, or a different pattern.", "Experimental result"),
+        ("Ethics", "Password testing must be limited to systems and samples with explicit authorization.", "Only classroom data and synthetic passwords were tested.", SCIENCE_BUDDIES),
+    ]
+    for item in items:
+        ws.append(item)
+    style_table(ws, 4, 4 + len(items), 4, "PasswordResearchNotes")
+    for row in ws.iter_rows(min_row=5):
+        for cell in row:
+            cell.alignment = Alignment(wrap_text=True, vertical="top")
+        ws.row_dimensions[row[0].row].height = 68
+    ws.column_dimensions["A"].width = 25
+    ws.column_dimensions["B"].width = 62
+    ws.column_dimensions["C"].width = 62
+    ws.column_dimensions["D"].width = 54
+
+
 def main():
     wb = Workbook()
     add_overview(wb)
     add_measured(wb)
     add_search_space(wb)
     add_notes(wb)
+    add_science_buddies(wb)
+    add_research(wb)
     wb.save(OUTPUT)
     # Reopen immediately so a corrupt file fails here instead of after upload.
     load_workbook(OUTPUT, read_only=True).close()

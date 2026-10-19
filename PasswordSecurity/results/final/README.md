@@ -3,7 +3,10 @@
 These files turn the completed experiment into poster-ready vector graphs and
 spreadsheet-ready CSV tables.
 
-- Password-Security-Final.xlsx is a polished, one-file workbook for Google Sheets.
+- Password-Security-Science-Fair-Package.zip contains the finished project in one download.
+- Password-Security-Final.xlsx is a polished, Google Sheets-compatible workbook
+  with Overview, Measured Time, Search Space, Notes, Science Buddies, and
+  Research Notes tabs.
 - Password-Security-Final-Report.docx is the complete written report.
 - Password-Security-Display-Board.docx contains shortened presentation-board text.
 - challenge-attempts.svg compares Science Buddies Challenges 0–6.
@@ -19,3 +22,4 @@ measurement from the two process-log intervals. It is not CPU time.
 
 Regenerate the SVG files by running python create_graphs.py in this folder.
 Regenerate the workbook by running python create_workbook.py in this folder.
+Regenerate every artifact and the ZIP by running python create_package.py.
